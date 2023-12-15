@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+body {
+    background-image: url("https: //www.bing.com/images/search?view=detailV2&ccid=sDB2CTec&id=76ACF7472C86EDD40725CFB981ED4409AC9D985B&thid=OIP.sDB2CTecFgBESD2BjjTvMQHaFj&mediaurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.b0307609379c160044483d818e34ef31%3frik%3dW5idrAlE7YG5zw%26riu%3dhttp%253a%252f%252fupload.wikimedia.org%252fwikipedia%252fcommons%252fd%252fdf%252fIIT_Kharagpur_Main_Building.JPG%26ehk%3d3J4T%252bd1q1jCmSGfhZ6%252b3Ja%252bQGdQN62wp0Om%252f%252bVCuZ1U%253d%26risl%3d%26pid%3dImgRaw%26r%3d0&exph=1536&expw=2048&q=iit+kharagpur&simid=608043206527371987&FORM=IRPRST&ck=3741539CECF9305D241DB6B090B16878&selectedIndex=0&itb=0&ajaxhist=0&ajaxserp=0");
+    background-size: cover;
+    font-size: larger;
+}
+
+.Information {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.Info ul li {
+    position: relative;
+    list-style-type: none;
+    text-align: left;
+    font-size: larger;
+}
+
+.Info ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+.profile ul {
+    display: flex;
+}
+
+.profile ul li {
+    list-style-type: none;
+    display: flex;
+}
+
+.profile ul li img {
+    position: relative;
+    top: 5px;
+    left: 19px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.profile ul li a {
+    display: flex;
+    padding: 10px 10px 10px 29px;
+    text-decoration: none;
+}
+
+.Experiences {
+    text-align: left;
+    padding: 10px 10px 0px 250px;
+}
+
+.Ex {
+    text-align: left;
+    padding-left: 250px;
+}
+
+.AM {
+    text-align: left;
+    padding: 10px 10px 0px 250px;
+}
+
+.A {
+    text-align: left;
+    padding-left: 250px;
+}
+
+.image {
+    padding: auto;
+    width: auto;
+    height: 100%;
+}
+
+.image img {
+    position: sticky;
+}
+
+.option {
+    padding-inline: 29px;
+    justify-content: center;
+}
+
+/* For screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .profile ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile ul li {
+        margin-bottom: 10px;
+    }
+
+    .profile ul li a {
+        padding: 5px;
+    }
+
+    .profile ul li img {
+        padding-left: 0px;
+    }
+}
+
+/* For smaller screens */
+@media screen and (max-width: 768px) {
+
+    /* Adjust padding, margins, font sizes, etc. */
+    .Info ul li {
+        padding-right: 3vw;
+        font-size: larger;
+    }
+}
